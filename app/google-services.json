@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "405703298251",
+    "firebase_url": "https://vp-cranes.firebaseio.com",
+    "project_id": "vp-cranes",
+    "storage_bucket": "vp-cranes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405703298251:android:3f9d7360cd7754b7",
+        "android_client_info": {
+          "package_name": "com.example.sivaram.cranes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405703298251-j19el2c9m98j7fsd0lbkits8aaag68ll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sivaram.cranes",
+            "certificate_hash": "c27c520e97f30575456e9c449bc407455ab5bed0"
+          }
+        },
+        {
+          "client_id": "405703298251-k5o6o1gguek24plr5mvorua2c4vqgqbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5ap-NpDCdnXcFg-3HSvOYvmc6EV_Wc8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405703298251-k5o6o1gguek24plr5mvorua2c4vqgqbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

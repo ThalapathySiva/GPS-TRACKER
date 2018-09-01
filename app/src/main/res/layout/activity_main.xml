@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_layout"
+    android:background="@drawable/downlod"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginTop="30dp"
+       android:layout_centerHorizontal="true"
+       android:gravity="center_horizontal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="36dp"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:fontFamily="Roboto"
+           android:textColor="#FFF"
+           android:text=" V P  "/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="Roboto"
+           android:textSize="16dp"
+           android:layout_marginTop="20dp"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textColor="#FFF"
+           android:text="C R A N E S "/>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:text="Login"
+            android:textStyle="bold"
+            android:id="@+id/login"
+            android:fontFamily="Roboto"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            />
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/sign_up"
+            android:textColor="#fff"
+            android:text="register"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/mybutton"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
